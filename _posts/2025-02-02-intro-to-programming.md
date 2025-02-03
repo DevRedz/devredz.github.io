@@ -1,5 +1,5 @@
 ---
-title: [스나이퍼팩토리] 한컴AI - AI개발자 교육 1일차
+title: 스나이퍼팩토리 한컴AI - AI개발자 교육 1일차
 date: 2025-02-02 21:03:15 +09:00
 categories: [programming, theory]
 tags: [lecture,review]     # TAG names should always be lowercase
