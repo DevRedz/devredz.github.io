@@ -49,7 +49,8 @@ Table of Contents
 - 다수의 그래픽 연산을 병렬 처리
 - CPU에 내장된 통합 그래픽 카드 & 별도 장착하는 전용 그래픽 카드
 <!---## PSU (Power Supply Unit)-->
-## BIOS & UEFI (Basic Input/Output System, Unified Extensible Firmware Interface)
+## BIOS & UEFI
+- Basic Input/Output System, Unified Extensible Firmware Interface
 - 컴퓨터가 켜질 때 하드웨어를 초기화하고, 운영체제를 부팅하는 역할을 하는 펌웨어.
 - 컴퓨터가 켜질 때, BIOS 또는 UEFI는 각 하드웨어 장치의 상태를 확인하고, 운영체제를 메모리에 로드.
 - UEFI 가 BIOS의 업그레이드 버전
