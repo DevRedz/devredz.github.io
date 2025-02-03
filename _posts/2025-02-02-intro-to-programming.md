@@ -4,7 +4,7 @@ date: 2025-02-02 21:03:15 +09:00
 categories: [programming, theory]
 tags: [lecture,review]     # TAG names should always be lowercase
 ---
-![profile picture](../assets/images/blogday1.png)
+![hancom AI Ad pic](../assets/img/blogpost/blogpost2025_1/blogday1.png)
 Table of Contents
 1. [컴퓨터의 기본 구조](#-컴퓨터의-기본-구조)
 2. [운영체제(OS)](#-운영체제os)
