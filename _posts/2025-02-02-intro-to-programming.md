@@ -7,7 +7,7 @@ tags: [lecture,review]     # TAG names should always be lowercase
 <span style="color:gray">
 Table of Contents
 1. [컴퓨터의 기본 구조](#1-컴퓨터의-기본-구조)
-2. [운영체제(OS)](#2-운영체제OS)
+2. [운영체제(OS)](#2-운영체제os)
 3. [프로그래밍](#3-프로그래밍)
 4. [인터넷](#4-인터넷)
 5. [웹](#5-웹)
