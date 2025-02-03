@@ -41,7 +41,7 @@ inline element
 
 # ❹ HTML 태그
 ## 🅐 텍스트 작성 태그
-### h_n_
+### h _n_
 `<h1></h1>`
 - 검색 엔진에서 키워드로 인식됨. 검색 엔진 최적화 (SEO) 를 위해 신중히 작성.
 
@@ -60,7 +60,7 @@ inline element
 `<q cite="source URL">짧은 인용문</q>`
 
 ### ins & del
-`<ins>추가 텍스트</ins>` 와 `<del>삭제 텍스트</del>
+`<ins>추가 텍스트</ins>` 와 `<del>삭제 텍스트</del>`
 
 ### sub & sup
 `<sub>아래 첨자</sub>` 과 `<sup>위 첨자</sup>`
