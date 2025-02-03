@@ -6,11 +6,11 @@ tags: [lecture,review]     # TAG names should always be lowercase
 ---
 ![profile picture](../assets/images/blogday1.png)
 Table of Contents
-1. [컴퓨터의 기본 구조](#❶-컴퓨터의-기본-구조)
-2. [운영체제(OS)](#❷-운영체제os)
-3. [프로그래밍](#❸-프로그래밍)
-4. [인터넷](#❹-인터넷)
-5. [웹](#❺-웹)
+1. [컴퓨터의 기본 구조](#-컴퓨터의-기본-구조)
+2. [운영체제(OS)](#-운영체제os)
+3. [프로그래밍](#-프로그래밍)
+4. [인터넷](#-인터넷)
+5. [웹](#-웹)
 
 # ❶ 컴퓨터의 기본 구조
 - [CPU (Central Processing Unit)](#cpu-central-processing-unit)
