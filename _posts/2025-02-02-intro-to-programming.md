@@ -11,6 +11,7 @@ Table of Contents
 3. [프로그래밍](#3-프로그래밍)
 4. [인터넷](#4-인터넷)
 5. [웹](#5-웹)
+
 </code>
 
 # 1. 컴퓨터의 기본 구조
@@ -38,8 +39,8 @@ Table of Contents
 ## 메모리
 - 주기억 장치 (RAM): 휘발성 메모리; 현재 실행 중인 프로그램과 데이터를 저장하는데 사용.
 - 보조기억 장치 (HDD-hard disk drive, SSD-solid state drive)
-<!---## I/O Devices
-## Storage Devices-->
+<!---## I/O Devices-->
+<!---## Storage Devices-->
 ## Motherboard
 - 컴퓨터의 모든 하드웨어 연결 (CPU, RAM, 저장 장치, 그래픽 카드, 입출력 장치 등)
 - 칩셋: 메인보드의 핵심 구성 요소, CPU와 메모리, 저장 장치 등과의 통신을 제어하는 역할; 메인보드의 성능과 호환성을 결정 지음.
