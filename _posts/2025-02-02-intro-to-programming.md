@@ -4,14 +4,14 @@ date: 2025-02-02 21:03:15 +09:00
 categories: [programming, theory]
 tags: [lecture,review]     # TAG names should always be lowercase
 ---
-<span style="color:gray">
+<code style="color : gray">
 Table of Contents
 1. [컴퓨터의 기본 구조](#1-컴퓨터의-기본-구조)
 2. [운영체제(OS)](#2-운영체제os)
 3. [프로그래밍](#3-프로그래밍)
 4. [인터넷](#4-인터넷)
 5. [웹](#5-웹)
-</span>
+</code>
 
 # 1. 컴퓨터의 기본 구조
 - [CPU (Central Processing Unit)](#cpu-central-processing-unit)
