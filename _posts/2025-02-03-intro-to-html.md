@@ -5,10 +5,10 @@ categories: [web dev, html]
 tags: [lecture,review]     # TAG names should always be lowercase
 ---
 Table of Contents
-1. [HTML 기본 구성 요소](#html-기본-구성-요소)
-2. [HTML 기본 구조](#html-기본-구조)
-3. [HTML 특징](#html-특징)
-4. [HTML 태그](#html-태그)
+1. [HTML 기본 구성 요소](#-html-기본-구성-요소)
+2. [HTML 기본 구조](#-html-기본-구조)
+3. [HTML 특징](#-html-특징)
+4. [HTML 태그](#-html-태그)
 
 # ❶ HTML 기본 구성 요소
 1. 태그
@@ -77,6 +77,7 @@ inline element
 ### unorderly list
 ### orderly list
 ### description list
+
 ## 🅓 링크와 이미지
 ### a
 `<a href="대상 경로" target= "링크 연결 방식" title="링크 설명">링크가 표시되는 글</a>`
