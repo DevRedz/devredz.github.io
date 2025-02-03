@@ -145,6 +145,7 @@ inline element
   <fieldset>
     <legend>그룹 이름</legend>
   </fieldset>
+</form>
 ```
 
 ### textarea
