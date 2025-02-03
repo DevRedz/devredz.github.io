@@ -5,15 +5,14 @@ categories: [programming, theory]
 tags: [lecture,review]     # TAG names should always be lowercase
 ---
 ![profile picture](../assets/images/blogday1.png)
-<code style="color : gray">Table of Contents
+Table of Contents
 1. [컴퓨터의 기본 구조](#1-컴퓨터의-기본-구조)
 2. [운영체제(OS)](#2-운영체제os)
 3. [프로그래밍](#3-프로그래밍)
 4. [인터넷](#4-인터넷)
 5. [웹](#5-웹)
-</code>
 
-# 1. 컴퓨터의 기본 구조
+# ❶ 컴퓨터의 기본 구조
 - [CPU (Central Processing Unit)](#cpu-central-processing-unit)
 - [메모리](#메모리)
 - I/O Devices
@@ -60,10 +59,12 @@ tags: [lecture,review]     # TAG names should always be lowercase
 - 컴퓨터가 켜질 때, BIOS 또는 UEFI는 각 하드웨어 장치의 상태를 확인하고, 운영체제를 메모리에 로드.
 - UEFI 가 BIOS의 업그레이드 버전
 
-# 2. 운영체제(OS)
-# 3. 프로그래밍
-# 4. 인터넷
-# 5. 웹
+# ❷ 운영체제(OS)
+# ❸ 프로그래밍
+# ❹ 인터넷
+# ❺ 웹
+
+
 
 본 후기는 [한글과컴퓨터x한국생산성본부x스나이퍼팩토리] 한컴 AI 아카데미 (B-log) 리뷰로 작성 되었습니다.
 
