@@ -16,6 +16,7 @@ tags: [review, tutorial]     # TAG names should always be lowercase
 fork한 리포 버리고 starter 쓰니까 너무나 쉽게 만들어졌다. 
 
 
+
 웬만하면 [원작자 가이드](https://chirpy.cotes.page/)를 보고 시작하고 그 외에 막히는 것 (e.g. 마크다운언어)이 있으면 한국어 블로그를 보시길!
 
 참고로 원작자 가이드 페이지의 source code 는 [**여기서**](https://github.com/cotes2020/chirpy-demo/tree/main/posts) 확인할 수 있다.
