@@ -42,36 +42,45 @@ inline element
 # ❹ HTML 태그
 ## 🅐 텍스트 작성 태그
 ### h _n_
+---
 `<h1></h1>`
 - 검색 엔진에서 키워드로 인식됨. 검색 엔진 최적화 (SEO) 를 위해 신중히 작성.
 
 ### p
+---
 `<p></p>`
 
 ### br 
+---
 `<br>`: 줄바꿈
 
 ### blockquote
+---
 `<blockquote cite="source URL"><p>문단 단위 인용문</p></blockquote>`
 - `cite` attribute은 옵션
 - 무조건 1개 이상 'p' tag 포함해야함
 
 ### q
+---
 `<q cite="source URL">짧은 인용문</q>`
 
 ### ins & del
+---
 `<ins>추가 텍스트</ins>` 와 `<del>삭제 텍스트</del>`
 
 ### sub & sup
+---
 `<sub>아래 첨자</sub>` 과 `<sup>위 첨자</sup>`
 
 ## 🅑 그룹 태그
   :관련 있는 요소끼리 그룹 짓는 태그들
 
 ### div
-`<div>inline elements and block elements</div>'
+---
+`<div>inline elements and block elements</div>`
 ### span
-`<span>inline elements</span>'
+---
+`<span>inline elements</span>`
 
 ## 🅒 목록 태그
 ### unorderly list
@@ -80,12 +89,14 @@ inline element
 
 ## 🅓 링크와 이미지
 ### a
+---
 `<a href="대상 경로" target= "링크 연결 방식" title="링크 설명">링크가 표시되는 글</a>`
 -`href`는 필수 나머지는 선택. 혹 href 값이 아직 없다면 `#`입력
 -`target`은 새 창으로 열리는 방식인 `_blank`값을 제외하고 거의 생략
 -`title`은 `a`tag의 콘텐츠 만으로 표현하지 못한 링크 설명
 
 ### img
+---
 `<img src="이미지 경로" alt="이미지 설명">`
 - `src`와 `alt`모두 필수
 - `../`는 상위 폴더 `./`는 현재 폴더; e.g. `../../imgs/beach.jpg`
@@ -94,25 +105,30 @@ inline element
 ## 🅔 텍스트 강조
 
 ### strong
+---
 - 중첩 가능 (강조 효과는 동일 but 코드 읽는 사람이 구조적으로 강세를 파악하기 위함)
 
 ### em
+---
 - 기울임 & 강조
 - 중첩 가능 just like `strong`
 
 ## 🅕 폼 구성하기
 ### form
+---
 `<form action="server url" method="get OR post"></form>`
 - action : form element 에서 사용자와 상호작용으로 입력받은 값들을 전송할 서버의 URL 주소
 - method : 서버에 전송할 때 송신 방식
 - 
 ### input
+---
 `<input type="" name="" value=""></input>`
 ![input tag type attribute list](https://www.codewithfaraz.com/img/Understanding%20the%20HTML%20Input%20Tag%20and%20Its%20Types.jpg)
 - name: 입력 요소가 form tag에 의해 서버로 전송될 때, name 속성에 적힌 값이 이름으로 지정됨.
 - value: 입력 요소의 디폴트 값
 
 ### label
+---
 태그 안에서 사용하는 상호작용 요소에 이름을 붙일 때 사용; 웹 접근성을 높이기 위해 필요함
 
 #### 암묵적 사용
@@ -138,8 +154,10 @@ inline element
 ```
 
 ### fieldset & legend
+---
 - fieldset: form tag 안에 사용된 여러 상호작용 요소를 *그룹* 지음
 - legend: 그룹에 이름 붙임
+
 ```html
 <form action="#">
   <fieldset>
@@ -149,12 +167,15 @@ inline element
 ```
 
 ### textarea
+---
 `<textarea>초깃값</textarea>`
 여러 줄의 input text를 받을 때 `input` tag 대신 사용
 
 ### select & option & optgroup
+---
 - option tag는 서버에 전송할 값을 value attribute으로 지정가능. 단 attribute을 생략하면 option tag 의 contents로 적은 text가 전송됨.
 - optgroup tag로 항목들을 그룹 지을 때 반드시 label attribute 으로 그룹명을 지정해야함
+
 ```html
 <select name="fruits" size="3" multiple>
   <optgroup label="과일">
@@ -174,6 +195,7 @@ inline element
 - selected attribute: 기본 선택 항목
 
 ### button
+---
 - input tag에서 type attribute 값을 submit, reset, button으로 지정해 생성 가능
 - 별도의 button tag도 가능
 `<button type="">버튼내용</button>`
@@ -184,13 +206,16 @@ inline element
   - button: 단순한 버튼
   
 ### 그 외 form 관련 tag에서 사용할 수 있는 추가 _attribute_
-- `disabled'
+---
+- `disabled`
 - `readonly`
 - `maxlength`
-- `checked'
+- `checked`
 - `placeholder`
 
 ## 🅖 표 만들기
+### table
+---
 ```html
 <table>
   <tr>
@@ -203,28 +228,36 @@ inline element
   </tr>
 </table>
 ```
-### table
-### caption 
+
+### caption
+---
 ### tr, th, td
+---
 ### rowspan & colspan _attribute_
+---
 - merge 하려는 td 들 중 첫 번째 td에 적용. 병합한 셀 개수만큼 다음 셀은 비워야한다.
 
 ### thead, tfoot, tbody 
+---
 - 보통 청각접근성을 위해 씀
 - grouping rows
 - must be in order: thead, tfoot, tbody
 
 ### col & colgroup 
+---
 - grouping cols
 - 보통 스타일링을 위해 씀
 - caption 태그 뒤, tr 태그 전에 사용해야 함
 
 ### scope _attribute_
+---
 
 ## 🅗 멀티미디어 설정하기
 - browser 마다 오디오/video 파일 포맷이 다르다.
 #### audio
+---
 - MP3 -> mpeg / WAV -> wav / OGG -> ogg
+
 ```html
 <audio 
   src="https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3" 
@@ -237,7 +270,9 @@ inline element
 ```
 
 #### video
+---
 - MP4 -> mp4 / WAV -> webm / OGG -> ogg
+
 ```html
 <video 
   src="https://www.w3schools.com/html/mov_bbb.mp4" 
@@ -254,7 +289,9 @@ inline element
 ```
 
 #### source
-- 보통 웹브라우저에서 내가 원하는 포맷의 미디어 타입을 지원하지 않을 때 쓴다. 웹브라우저는 그 다음 source를 차례대로 확인한다. 아무 source도 재생할 수 없다면 텍스트를 노출.
+---
+- 보통 웹브라우저에서 내가 원하는 포맷의 미디어 타입을 지원하지 않을 때 쓴다. 웹브라우저는 그 다음 source를 차례대로 확인한다. 아무 source도 재생할 수 없다면 마지막으로 텍스트를 노출.
+
 ```html
 <audio controls>
   <source src="sample.wav' type="audio/wav">
