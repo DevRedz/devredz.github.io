@@ -1,16 +1,16 @@
----
+![image](https://github.com/user-attachments/assets/1c4b5bd9-03ae-4db1-827c-1bef8c5fb425)---
 title: 스나이퍼팩토리 한컴AI - AI개발자 교육 1일차
 date: 2025-02-02 21:03:15 +09:00
 categories: [programming, theory]
 tags: [lecture,review]     # TAG names should always be lowercase
 ---
+![profile picture](../assets/images/blogday1.png)
 <code style="color : gray">Table of Contents
 1. [컴퓨터의 기본 구조](#1-컴퓨터의-기본-구조)
 2. [운영체제(OS)](#2-운영체제os)
 3. [프로그래밍](#3-프로그래밍)
 4. [인터넷](#4-인터넷)
 5. [웹](#5-웹)
-
 </code>
 
 # 1. 컴퓨터의 기본 구조
@@ -35,20 +35,25 @@ tags: [lecture,review]     # TAG names should always be lowercase
   - CPU가 즉시 처리해야할 데이터나 명력어를 임시로 저장. 
 - Clock
   - 클럭 주파수 (e.g. 3.2GHz)가 높을수록 더 빠르게 명령을 처리할 수 있음.
+
 ## 메모리
 - 주기억 장치 (RAM): 휘발성 메모리; 현재 실행 중인 프로그램과 데이터를 저장하는데 사용.
 - 보조기억 장치 (HDD-hard disk drive, SSD-solid state drive)
 <!---## I/O Devices-->
 <!---## Storage Devices-->
+
 ## Motherboard
 - 컴퓨터의 모든 하드웨어 연결 (CPU, RAM, 저장 장치, 그래픽 카드, 입출력 장치 등)
 - 칩셋: 메인보드의 핵심 구성 요소, CPU와 메모리, 저장 장치 등과의 통신을 제어하는 역할; 메인보드의 성능과 호환성을 결정 지음.
+
 ## Bus
 - 데이터 버스, 주소 버스, 제어 버스
+
 ## GPU (Graphics Processing Unit)
 - 다수의 그래픽 연산을 병렬 처리
 - CPU에 내장된 통합 그래픽 카드 & 별도 장착하는 전용 그래픽 카드
 <!---## PSU (Power Supply Unit)-->
+
 ## BIOS & UEFI
 - Basic Input/Output System, Unified Extensible Firmware Interface
 - 컴퓨터가 켜질 때 하드웨어를 초기화하고, 운영체제를 부팅하는 역할을 하는 펌웨어.
