@@ -24,6 +24,10 @@ fork한 리포 버리고 starter 쓰니까 너무나 쉽게 만들어졌다.
 
 마크다운언어가 아닌 마크업(html)언어로 블로그 포스팅을 할 사람들은 text-and-typography source code랑 가이드 사이트를 비교해보면서 따라해 보면 도움이 많이 될 것 같다!
 
+그리고 Front Matter로 Jekyll theme 에서 page (or file) 에 대한 메타데이터를 설정하는데 default configuration 이외에 user가 manually customized variable 을 추가 혹은 기존의 variable의 default value (e.g. image, description) 를 override 할 수 있다는 것을 알게 되었다.
+
+다음 깃허브 블로그 포스트에는 Prompts, Tables, Mathematics, Float to left/right, ㅍideo, Reverse Footnote, Mermaid SVG 등을 추가하는 법을 배워서 써봐야 겠다.
+
 
 이것까지하면 벌써 포스팅 3개째 성공이다 아싸
 
