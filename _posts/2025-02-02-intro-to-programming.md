@@ -1,11 +1,10 @@
 ---
-title: 프로그래밍 기초
+title: [스나이퍼팩토리] 한컴AI - AI개발자 교육 1일차
 date: 2025-02-02 21:03:15 +09:00
 categories: [programming, theory]
 tags: [lecture,review]     # TAG names should always be lowercase
 ---
-<code style="color : gray">
-Table of Contents
+<code style="color : gray">Table of Contents
 1. [컴퓨터의 기본 구조](#1-컴퓨터의-기본-구조)
 2. [운영체제(OS)](#2-운영체제os)
 3. [프로그래밍](#3-프로그래밍)
@@ -60,3 +59,7 @@ Table of Contents
 # 3. 프로그래밍
 # 4. 인터넷
 # 5. 웹
+
+본 후기는 [한글과컴퓨터x한국생산성본부x스나이퍼팩토리] 한컴 AI 아카데미 (B-log) 리뷰로 작성 되었습니다.
+
+#한컴AI아카데미 #AI개발자 #AI개발자교육 #한글과컴퓨터 #한국생산성본부 #스나이퍼팩토리 #부트캠프 #AI전문가양성 #개발자교육 #개발자취업
