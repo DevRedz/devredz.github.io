@@ -14,15 +14,15 @@ Table of Contents
 </span>
 
 # 1. 컴퓨터의 기본 구조
-- [CPU (Central Processing Unit)](#CPU-Central-Processing-Unit)
+- [CPU (Central Processing Unit)](#cpu-central-processing-unit)
 - [메모리](#메모리)
 - I/O Devices
 - Storage Devices
-- [Motherboard](#Motherboard)
-- [Bus](#Bus)
-- [GPU (Graphics Processing Unit)](#GPU-Graphics-Processing-Unit)
+- [Motherboard](#motherboard)
+- [Bus](#bus)
+- [GPU (Graphics Processing Unit)](#gpu-graphics-processing-unit)
 - PSU (Power Supply Unit)
-- [BIOS & UEFI](#BIOS--UEFI)
+- [BIOS & UEFI](#bios--uefi)
 
 ## CPU (Central Processing Unit)
 - 연산 장치 (ALU, arithmetic logic unit): 산술 연산 & 논리 연산
