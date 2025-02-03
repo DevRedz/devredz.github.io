@@ -1,5 +1,6 @@
 ---
 title: 스나이퍼팩토리 한컴AI - AI개발자 교육 2일차
+description: html 기본 구조부터 많이 쓰는 tag까지.
 date: 2025-02-03 14:22:15 +09:00
 categories: [web dev, html]
 tags: [lecture,review]     # TAG names should always be lowercase
