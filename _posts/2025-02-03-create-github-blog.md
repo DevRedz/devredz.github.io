@@ -13,7 +13,7 @@ learning `markdown` language
 
 [move to header](#create-github-blog)
 
-<img src= "./assets/images/IMG_7758.png">
+<img src= "../assets/images/IMG_7758.png">
 
 
 ```python
