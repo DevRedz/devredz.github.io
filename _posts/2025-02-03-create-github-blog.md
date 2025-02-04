@@ -160,8 +160,13 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
 ![dark mode only](../assets/img/blogpost/blogpost2025_1/sadness.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ### Video
-> 여기서 iframe은 원본 repo에 있고 나는 {%...로 시작하는 축약된 syntax 에 따라 id 만 입력하면 되나보다.
+> 여기서 iframe은 원본 repo에 있고 나는 아래처럼 축약된 syntax 에 따라 id 만 입력하면 되나보다.
 {: .prompt-tip }
+
+```markdown
+{% include embed/youtube.html id='여기_입력' %}
+<!--이 {%..%} 형식의 코드를 liquid code라고 하는데 정확히 뭔지는 모르겠다-->
+```
 
 ![설명1](../assets/img/blogpost/blogpost2025_1/youtubeembed.png)
 ![설명2](../assets/img/blogpost/blogpost2025_1/youtubeembed2.png)
