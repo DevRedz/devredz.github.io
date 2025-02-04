@@ -108,10 +108,14 @@ social_preview_image: /assets/img/favicons/profileimage.png # string, local or C
 toc: true
 
 # diagram generation tool
+---
 mermaid: true
+---
 
 # math equation tool
+---
 math: true
+---
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
