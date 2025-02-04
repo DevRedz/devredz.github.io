@@ -39,15 +39,22 @@ fork한 리포 버리고 starter 쓰니까 너무나 쉽게 만들어졌다.
 
 ## 20250204 update: Advanced Contents
 우와 수식이랑 mermaid diagram 되게하려고 _config.yml 계속 고치고 구글에도 엄청 찾아봤는데 되게 복잡하게 이런저런 파일이랑 코드 추가하라 그러는데 도무지 아닌거 같았다. 
+
 starter repo 가 원본에서 inherit 된거 아닌가? 그걸 덮어쓰는 파일을 잘 못 만들었다가 다시 영영 되돌아가지 못하면 우째. 
+
 원본 repo 보니까 mathjax.js 파일이 이미 있어서 그걸 쓰기만 하면 되는 거 같았다. 
 
 정확한 원리는 모르겠지만 내 직감이 맞았던 것 같다. 그냥 Frontmatter 에 각각 한줄씩만 추가해서 있는 코드 작동시키면 되는 거였거든...ㅜ ~바본가 나~
+
 `math=true`
+
 `mermaid=true`
+
 yaml file 수정하라길래 계속 config에서 뭐 바꿔야 하는 줄 알았지...
 
 그 외에 이것저것 쓰는 법을 배웠다. 
+
+다음에는 [이 분 블로그](https://www.handongbee.com/posts/GitHub-Blog-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/) 랑 [이 분 블로그](https://wlqmffl0102.github.io/) 를 보면서 1) 구글 아날리틱스로 방문자수 조회, 2) 구글 에드센스로 광고게시, 3) Disqus 댓글 창 열기 등을 알아보아야 겠다. 휴우,,, 힘들다
 
 ### Prompts 예시
 
@@ -82,7 +89,10 @@ yaml file 수정하라길래 계속 config에서 뭐 바꿔야 하는 줄 알았
 
 Click the hook will locate the footnote[^footnote], and here is another footnote[^fn-nth-2].
 
-### Specific filename
+### code(/text) block
+#### Specific filename
+> 보통 특정 프로그래밍언어 코드블락이면 "```" 바로 뒤에 언어를 명시하면 되는데 파일명이면 약간 명시하는 법이 다르다.
+{: .prompt-tip }
 
 ```sass
 @import
@@ -104,19 +114,17 @@ $$
 
 We can reference the equation as \eqref{eq:series}.
 
+> inline latex 수식을 인식을 못한다.. 왜 그러지?
+{: .prompt-warning }
+
 When $ a\ne0 $ , there are two solutions to $ ax^2 + bx + c = 0 $ and they are
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ### Mermaid SVG
+> GPT에 'diagram 이미지를 주고 mermaid diagram 으로 나올 수 있게 markdown language 로 코드 작성해줘! github jekyll blog에 post 할 거야' 라고 부탁해보자.
+{: .prompt-tip }
 
-```mermaid
- gantt
-  title  Adding GANTT diagram functionality to mermaid
-  apple :a, 2017-07-20, 1w
-  banana :crit, b, 2017-07-23, 1d
-  cherry :active, c, after b a, 1d
-```
 ```mermaid
 graph TD;
     A[Start] --> B{Decision};
@@ -149,13 +157,13 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
 > jekyll은 jpg, jpeg 파일도 지원한다.
 {: .prompt-tip }
 
-The image below will toggle dark/light mode based on theme preference, notice it has shadows.
+아래의 이미지는 dark/light mode 에 따라 슬픔이<->기쁨이로 왔다갔다 한다.
 
 ![light mode only](../assets/img/blogpost/blogpost2025_1/joy.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 ![dark mode only](../assets/img/blogpost/blogpost2025_1/sadness.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ### Video
-> 여기서 iframe은 원본 repo에 있고 나는 `{% include embed/youtube.html id='Balreaj8Yqs' %}` 이 syntax 에 따라 id 만 입력하면 되나보다.
+> 여기서 iframe은 원본 repo에 있고 나는 ```{% ... id='아래_사진_참고해_id_를_입력' %}``` 이 syntax 에 따라 id 만 입력하면 되나보다.
 {: .prompt-tip }
 
 ![설명1](../assets/img/blogpost/blogpost2025_1/youtubeembed.png)
@@ -166,8 +174,8 @@ _Drag해서 Highlight 된 부분이 id 값이다_
 {% include embed/youtube.html id='Balreaj8Yqs' %}
 
 ### Reverse Footnote
+> footnote 는 raw file에 어디 위치되던지 항상 페이지의 맨 아래에 display 된다
+{: .prompt-tip }
 
 [^footnote]: The footnote source
 [^fn-nth-2]: The 2nd footnote source
-
-다음에는 [이 분 블로그](https://www.handongbee.com/posts/GitHub-Blog-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/) 랑 [이 분 블로그](https://wlqmffl0102.github.io/) 를 보면서 구글 아날리틱스로 방문자수 조회, 구글 에드센스로 광고게시, Disqus 댓글 창 열기 등을 알아보아야 겠다. 휴우,,, 힘들다
