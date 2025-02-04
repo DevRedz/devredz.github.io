@@ -6,7 +6,7 @@ categories: [web dev, css]
 tags: [lecture,review]     # TAG names should always be lowercase
 ---
 
-# Intro to CSS
+# 🅐 Intro to CSS
 
 ## ❶ How to Add CSS
 
@@ -147,9 +147,9 @@ tags: [lecture,review]     # TAG names should always be lowercase
 
 ===
 
-# CSS Properties
+🅑 # CSS Properties
 
-## CSS Specificity
+## ❶ CSS Specificity
 The lower the hierarchy, the more power to overwrite style rules.
 
 | Priority | Example | 
@@ -163,7 +163,7 @@ The lower the hierarchy, the more power to overwrite style rules.
 
 ---
 
-## CSS Colors
+## ❷ CSS Colors
 ### Resources 🪚
 - [Color Palette](https://colorhunt.co/)
 - [Generate Unique Color](https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/)
@@ -171,7 +171,7 @@ The lower the hierarchy, the more power to overwrite style rules.
 
 ---
 
-## Font Properties
+## ❸ Font Properties
 ### Font Size
 - `1px` = 1/96th inch
 - `1pt` = 1/72nd inch
@@ -200,7 +200,7 @@ h1 {
 
 ---
 
-## Inspecting CSS (Ft. Google Developer Tool)
+## ❹ Inspecting CSS (Ft. Google Developer Tool)
 - **Style tab**: Can check boxes or add CSS properties.
 - **Computed tab**: Convenient to check which properties actually got applied when there are overwrites.
 - **CSS Overview tab**: Summary of designs (go to "More").
@@ -208,7 +208,7 @@ h1 {
 
 ---
 
-## The CSS Box Model - Margin, Padding, and Border
+## ❺ The CSS Box Model - Margin, Padding, and Border
 ![css boxmodel](../assets/img/blogpost/blogpost2025_1/cssboxmodel20250204.png)
 
 1. **Padding** increases the gap between the content box and the border.
