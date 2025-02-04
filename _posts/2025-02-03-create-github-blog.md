@@ -52,7 +52,7 @@ starter repo 가 원본에서 inherit 된거 아닌가? 그걸 덮어쓰는 파�
 
 yaml file 수정하라길래 계속 config에서 뭐 바꿔야 하는 줄 알았지...
 
-그 외에 이것저것 쓰는 법을 배웠다. 
+그 외에 이것저것 쓰는 법을 배웠다. 
 
 다음에는 [이 분 블로그](https://www.handongbee.com/posts/GitHub-Blog-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/) 랑 [이 분 블로그](https://wlqmffl0102.github.io/) 를 보면서 1) 구글 아날리틱스로 방문자수 조회, 2) 구글 에드센스로 광고게시, 3) Disqus 댓글 창 열기 등을 알아보아야 겠다. 휴우,,, 힘들다
 
