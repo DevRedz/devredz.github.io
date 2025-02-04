@@ -145,9 +145,10 @@ tags: [lecture,review]     # TAG names should always be lowercase
 - Some HTML tags have **predefined browser styles**.
 - CSS does **not** differentiate between ID and class syntax-wise.
 
-===
+---
+---
 
-🅑 # CSS Properties
+# 🅑 CSS Properties
 
 ## ❶ CSS Specificity
 The lower the hierarchy, the more power to overwrite style rules.
