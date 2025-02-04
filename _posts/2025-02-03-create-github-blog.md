@@ -20,7 +20,7 @@ fork한 리포 버리고 starter 쓰니까 너무나 쉽게 만들어졌다.
 
 웬만하면 [원작자 가이드](https://chirpy.cotes.page/)를 보고 시작하고 그 외에 막히는 것 (e.g. 마크다운언어)이 있으면 한국어 블로그를 보시길!
 
-참고로 원작자 가이드 페이지의 source code 는 [**여기서**](https://github.com/cotes2020/chirpy-demo/tree/main/posts) 확인할 수 있다.
+참고로 원작자 가이드 페이지의 source code 는 [**여기서**](https://github.com/cotes2020/jekyll-theme-chirpy/tree/master/_posts) 확인할 수 있다.
 
 마크다운언어가 아닌 마크업(html)언어로 블로그 포스팅을 할 사람들은 [text-and-typography raw file](https://github.com/cotes2020/jekyll-theme-chirpy/blob/master/_posts/2019-08-08-text-and-typography.md)이랑 가이드 사이트를 비교해보면서 따라해 보면 도움이 많이 될 것 같다!
 
