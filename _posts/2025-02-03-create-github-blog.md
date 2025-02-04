@@ -28,7 +28,7 @@ fork한 리포 버리고 starter 쓰니까 너무나 쉽게 만들어졌다.
 
 그리고 Front Matter로 Jekyll theme 에서 page (or file) 에 대한 메타데이터를 설정하는데 default configuration 이외에 user가 manually customized variable 을 추가 혹은 기존의 variable의 default value (e.g. image, description) 를 override 할 수 있다는 것을 알게 되었다.
 
-다음 깃허브 블로그 포스트에는 Prompts, Tables, Mathematics, Float to left/right, ㅍideo, Reverse Footnote, Mermaid SVG 등을 추가하는 법을 배워서 써봐야 겠다.
+다음 깃허브 블로그 포스트에는 Prompts, Tables, Mathematics, Float to left/right, video, Reverse Footnote, Mermaid SVG 등을 추가하는 법을 배워서 써봐야 겠다.
 
 이것까지하면 벌써 포스팅 3개째 성공이다 아싸
 
@@ -146,21 +146,22 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
 Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecenas pharetra, sem sit amet interdum posuere, tellus lacus eleifend magna, ac lobortis felis ipsum id sapien. Proin ornare rutrum metus, ac convallis diam volutpat sit amet. Phasellus volutpat, elit sit amet tincidunt mollis, felis mi scelerisque mauris, ut facilisis leo magna accumsan sapien. In rutrum vehicula nisl eget tempor. Nullam maximus ullamcorper libero non maximus. Integer ultricies velit id convallis varius. Praesent eu nisl eu urna finibus ultrices id nec ex. Mauris ac mattis quam. Fusce aliquam est nec sapien bibendum, vitae malesuada ligula condimentum.
 
 ### Dark/Light mode & Shadow
+> jekyll은 jpg, jpeg 파일도 지원한다.
+{: .prompt-tip }
 
 The image below will toggle dark/light mode based on theme preference, notice it has shadows.
 
-![light mode only](../assets/img/blogpost/blogpost2025_1/joy.jpeg){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
-![dark mode only](../assets/img/blogpost/blogpost2025_1/sadness.jpeg){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![light mode only](../assets/img/blogpost/blogpost2025_1/joy.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](../assets/img/blogpost/blogpost2025_1/sadness.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ### Video
-> 여기서 iframe은 원본 repo에 있고 나는 id 만 입력하면 되나보다.
+> 여기서 iframe은 원본 repo에 있고 나는 `{% include embed/youtube.html id='Balreaj8Yqs' %}` 이 syntax 에 따라 id 만 입력하면 되나보다.
 {: .prompt-tip }
 
 ![설명1](../assets/img/blogpost/blogpost2025_1/youtubeembed.png)
 ![설명2](../assets/img/blogpost/blogpost2025_1/youtubeembed2.png)
 ![설명3](../assets/img/blogpost/blogpost2025_1/youtubeembed3.png)
 _Drag해서 Highlight 된 부분이 id 값이다_
-
 
 {% include embed/youtube.html id='Balreaj8Yqs' %}
 
@@ -169,4 +170,4 @@ _Drag해서 Highlight 된 부분이 id 값이다_
 [^footnote]: The footnote source
 [^fn-nth-2]: The 2nd footnote source
 
-
+다음에는 [이 분 블로그](https://www.handongbee.com/posts/GitHub-Blog-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/) 랑 [이 분 블로그](https://wlqmffl0102.github.io/) 를 보면서 구글 아날리틱스로 방문자수 조회, 구글 에드센스로 광고게시, Disqus 댓글 창 열기 등을 알아보아야 겠다. 휴우,,, 힘들다
