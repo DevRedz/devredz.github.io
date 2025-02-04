@@ -156,9 +156,10 @@ The image below will toggle dark/light mode based on theme preference, notice it
 > 여기서 iframe은 원본 repo에 있고 나는 id 만 입력하면 되나보다.
 {: .prompt-tip }
 
-![설명1](./2025-02-03/youtubeembed.png)
-![설명2](./2025-02-03/youtubeembed2.png)
-![설명3](./2025-02-03/youtubeembed3.png)
+![설명1](../assets/blogpost/blogpost2025_1/youtubeembed.png)
+![설명2](../assets/blogpost/blogpost2025_1/youtubeembed2.png)
+![설명3](../assets/blogpost/blogpost2025_1/youtubeembed3.png)
+_Drag해서 Highlight 된 부분이 id 값이다_
 
 
 {% include embed/youtube.html id='Balreaj8Yqs' %}
