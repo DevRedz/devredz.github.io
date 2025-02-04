@@ -114,9 +114,6 @@ $$
 
 We can reference the equation as \eqref{eq:series}.
 
-> inline latex 수식을 인식을 못한다.. 왜 그러지?
-{: .prompt-warning }
-
 When $ a\ne0 $ , there are two solutions to $ ax^2 + bx + c = 0 $ and they are
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
@@ -163,7 +160,7 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
 ![dark mode only](../assets/img/blogpost/blogpost2025_1/sadness.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ### Video
-> 여기서 iframe은 원본 repo에 있고 나는 ```{% ... id='아래_사진_참고해_id_를_입력' %}``` 이 syntax 에 따라 id 만 입력하면 되나보다.
+> 여기서 iframe은 원본 repo에 있고 나는 {%...로 시작하는 축약된 syntax 에 따라 id 만 입력하면 되나보다.
 {: .prompt-tip }
 
 ![설명1](../assets/img/blogpost/blogpost2025_1/youtubeembed.png)
