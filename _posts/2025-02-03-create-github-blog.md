@@ -1,4 +1,4 @@
-<img width="1280" alt="image" src="https://github.com/user-attachments/assets/05731206-ceb6-481a-85d7-140be48a0cb5" />---
+---
 title: Create github blog 
 date: 2025-02-03 20:58:45 +09:00
 image: ../assets/img/favicons/web-app-manifest-192x192.png
@@ -156,9 +156,9 @@ The image below will toggle dark/light mode based on theme preference, notice it
 > 여기서 iframe은 원본 repo에 있고 나는 id 만 입력하면 되나보다.
 {: .prompt-tip }
 
-![설명1](2025-02-03/youtubeembed.png)
-![설명2](2025-02-03/youtubeembed.png)
-![설명3](2025-02-03/youtubeembed.png)
+![설명1](./2025-02-03/youtubeembed.png)
+![설명2](./2025-02-03/youtubeembed2.png)
+![설명3](./2025-02-03/youtubeembed3.png)
 
 
 {% include embed/youtube.html id='Balreaj8Yqs' %}
