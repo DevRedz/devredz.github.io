@@ -1,4 +1,4 @@
----
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/05731206-ceb6-481a-85d7-140be48a0cb5" />---
 title: Create github blog 
 date: 2025-02-03 20:58:45 +09:00
 image: ../assets/img/favicons/web-app-manifest-192x192.png
@@ -7,7 +7,7 @@ tags: [review, tutorial]     # TAG names should always be lowercase
 mermaid: true
 math: true
 ---
-
+## Github Chirpy Theme Blog Starter
 예전부터 만들고 싶었던 깃허브 블로그를 드디어 만들었다!!
 
 처음엔 그냥 구글에 검색하면 맨 위에 나오는 [한국어 블로그](https://wlqmffl0102.github.io/posts/WritingThe-First-post-1-Markdown-Grammar1/ "Dodev님 블로그") 보고 무작정 따라했는데 jekyll build 단계예서 자꾸 오류가 뜨는 것이다ㅠㅠ
@@ -33,9 +33,23 @@ fork한 리포 버리고 starter 쓰니까 너무나 쉽게 만들어졌다.
 이것까지하면 벌써 포스팅 3개째 성공이다 아싸
 
 아자아자화이팅이다
-## 20250204 update
 
-## Prompts
+<br>
+---
+
+## 20250204 update: Advanced Contents
+우와 수식이랑 mermaid diagram 되게하려고 _config.yml 계속 고치고 구글에도 엄청 찾아봤는데 되게 복잡하게 이런저런 파일이랑 코드 추가하라 그러는데 도무지 아닌거 같았다. 
+starter repo 가 원본에서 inherit 된거 아닌가? 그걸 덮어쓰는 파일을 잘 못 만들었다가 다시 영영 되돌아가지 못하면 우째. 
+원본 repo 보니까 mathjax.js 파일이 이미 있어서 그걸 쓰기만 하면 되는 거 같았다. 
+
+정확한 원리는 모르겠지만 내 직감이 맞았던 것 같다. 그냥 Frontmatter 에 각각 한줄씩만 추가해서 있는 코드 작동시키면 되는 거였거든...ㅜ ~바본가 나~
+`math=true`
+`mermaid=true`
+yaml file 수정하라길래 계속 config에서 뭐 바꿔야 하는 줄 알았지...
+
+그 외에 이것저것 쓰는 법을 배웠다. 
+
+### Prompts 예시
 
 <!-- markdownlint-capture -->
 <!-- markdownlint-disable -->
@@ -52,7 +66,7 @@ fork한 리포 버리고 starter 쓰니까 너무나 쉽게 만들어졌다.
 {: .prompt-danger }
 <!-- markdownlint-restore -->
 
-## Tables
+### Tables 
 
 | Company                      | Contact          | Country |
 | :--------------------------- | :--------------- | ------: |
@@ -60,11 +74,11 @@ fork한 리포 버리고 starter 쓰니까 너무나 쉽게 만들어졌다.
 | Island Trading               | Helen Bennett    |      UK |
 | Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
 
-## Links
+### Links
 
 <http://127.0.0.1:4000>
 
-## Footnote
+### Footnote
 
 Click the hook will locate the footnote[^footnote], and here is another footnote[^fn-nth-2].
 
@@ -77,7 +91,7 @@ Click the hook will locate the footnote[^footnote], and here is another footnote
 ```
 {: file='_sass/jekyll-theme-chirpy.scss'}
 
-## Mathematics
+### Mathematics
 
 The mathematics powered by [**MathJax**](https://www.mathjax.org/):
 
@@ -90,11 +104,11 @@ $$
 
 We can reference the equation as \eqref{eq:series}.
 
-When $a \ne 0$, there are two solutions to $ax^2 + bx + c = 0$ and they are
+When $ a\ne0 $ , there are two solutions to $ ax^2 + bx + c = 0 $ and they are
 
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
-## Mermaid SVG
+### Mermaid SVG
 
 ```mermaid
  gantt
@@ -103,8 +117,14 @@ $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
   banana :crit, b, 2017-07-23, 1d
   cherry :active, c, after b a, 1d
 ```
+```mermaid
+graph TD;
+    A[Start] --> B{Decision};
+    B -- Yes --> C[Continue];
+    B -- No --> D[Stop];
+```
 
-## Images
+### Images
 
 ### Default (with caption)
 
@@ -132,11 +152,18 @@ The image below will toggle dark/light mode based on theme preference, notice it
 ![light mode only](../assets/img/blogpost/blogpost2025_1/joy.jpeg){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
 ![dark mode only](../assets/img/blogpost/blogpost2025_1/sadness.jpeg){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
-## Video
+### Video
+> 여기서 iframe은 원본 repo에 있고 나는 id 만 입력하면 되나보다.
+{: .prompt-tip }
+
+![설명1](2025-02-03/youtubeembed.png)
+![설명2](2025-02-03/youtubeembed.png)
+![설명3](2025-02-03/youtubeembed.png)
+
 
 {% include embed/youtube.html id='Balreaj8Yqs' %}
 
-## Reverse Footnote
+### Reverse Footnote
 
 [^footnote]: The footnote source
 [^fn-nth-2]: The 2nd footnote source
