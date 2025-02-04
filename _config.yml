@@ -53,6 +53,16 @@ webmaster_verifications:
   baidu: # fill in your Baidu verification code
   facebook: # fill in your Facebook verification code
 
+# diagram generation tool
+---
+mermaid: true
+---
+
+# math equation tool
+---
+math: true
+---
+
 # ↑ --------------------------
 # The end of `jekyll-seo-tag` settings
 
@@ -106,16 +116,6 @@ social_preview_image: /assets/img/favicons/profileimage.png # string, local or C
 
 # boolean type, the global switch for TOC in posts.
 toc: true
-
-# diagram generation tool
----
-mermaid: true
----
-
-# math equation tool
----
-math: true
----
 
 comments:
   # Global switch for the post-comment system. Keeping it empty means disabled.
