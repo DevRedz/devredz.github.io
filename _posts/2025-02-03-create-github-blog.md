@@ -4,6 +4,8 @@ date: 2025-02-03 20:58:45 +09:00
 image: ../assets/img/favicons/web-app-manifest-192x192.png
 categories: [etc, github]
 tags: [review, tutorial]     # TAG names should always be lowercase
+mermaid: true
+math: true
 ---
 
 예전부터 만들고 싶었던 깃허브 블로그를 드디어 만들었다!!
