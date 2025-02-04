@@ -127,8 +127,8 @@ Praesent maximus aliquam sapien. Sed vel neque in dolor pulvinar auctor. Maecena
 
 The image below will toggle dark/light mode based on theme preference, notice it has shadows.
 
-![light mode only](/posts/20190808/devtools-light.png){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
-![dark mode only](/posts/20190808/devtools-dark.png){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
+![light mode only](/posts/2025-02-03/joy.jpeg){: .light .w-75 .shadow .rounded-10 w='1212' h='668' }
+![dark mode only](/posts/2025-02-03/sadness.jpeg){: .dark .w-75 .shadow .rounded-10 w='1212' h='668' }
 
 ## Video
 
