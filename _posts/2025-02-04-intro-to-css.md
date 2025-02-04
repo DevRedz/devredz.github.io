@@ -165,7 +165,7 @@ The lower the hierarchy, the more power to overwrite style rules.
 
 ## CSS Colors
 ### Resources 🪚
-- [Color Palette](http://colorhunt.co/)
+- [Color Palette](https://colorhunt.co/)
 - [Generate Unique Color](https://www.csfieldguide.org.nz/en/interactives/rgb-mixer/)
 - [CSS Named Colors](https://developer.mozilla.org/en-US/docs/Web/CSS/named-color)
 
