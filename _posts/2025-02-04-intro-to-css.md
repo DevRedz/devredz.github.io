@@ -256,6 +256,8 @@ p {
 
 ### Resources 🪚
 - [Pesticide Chrome Extension](https://chrome.google.com/webstore/detail/pesticide) (Hold down Control key and hover over different boxes).
+- [CSS diner: selector 연습게임](https://flukeout.github.io/)
+- [CSS animation demo 모음](https://freefrontend.com/css-animation-examples/)
 
 <br>
 <footer>
