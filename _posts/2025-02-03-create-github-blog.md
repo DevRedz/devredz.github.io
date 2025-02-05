@@ -2,6 +2,7 @@
 title: Create github blog 
 date: 2025-02-03 20:58:45 +09:00
 image: ../assets/img/favicons/web-app-manifest-192x192.png
+description: 안녕하세요 ~..~ 신입 깃헙블로그 제페토 할아버지입니다(의젓)
 categories: [etc, github]
 tags: [review, tutorial]     # TAG names should always be lowercase
 mermaid: true

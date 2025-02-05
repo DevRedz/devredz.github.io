@@ -2,6 +2,7 @@
 title: 스나이퍼팩토리 한컴AI - AI개발자 교육 1일차
 date: 2025-02-02 21:03:15 +09:00
 categories: [programming, theory]
+description: intro to programming- computer architecture, os, proramming, internet, web
 tags: [lecture,review]     # TAG names should always be lowercase
 ---
 ![hancom AI Ad pic](../assets/img/blogpost/blogpost2025_1/blogday1.png)

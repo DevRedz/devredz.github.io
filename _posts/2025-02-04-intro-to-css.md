@@ -1,6 +1,6 @@
 ---
 title: 스나이퍼팩토리 한컴AI - AI개발자 교육 3일차
-description: Intro to CSS- css selecter css properties (textbook CH4-5).
+description: intro to css- css selecter, box model, properties (textbook CH4-5).
 date: 2025-02-04 13:25:15 +09:00
 categories: [web dev, css]
 tags: [lecture,review]     # TAG names should always be lowercase
