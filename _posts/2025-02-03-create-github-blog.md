@@ -55,6 +55,12 @@ yaml file 수정하라길래 계속 config에서 뭐 바꿔야 하는 줄 알았
 
 그 외에 이것저것 쓰는 법을 배웠다. 
 
+로컬에서 확인하는 방법
+```<Terminal>
+$ bundle exec jekyll s
+```
+<http://127.0.0.1:4000>
+
 다음에는 [이 분 블로그](https://www.handongbee.com/posts/GitHub-Blog-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0/) 랑 [이 분 블로그](https://wlqmffl0102.github.io/) 를 보면서 1) 구글 아날리틱스로 방문자수 조회, 2) 구글 에드센스로 광고게시, 3) Disqus 댓글 창 열기 등을 알아보아야 겠다. 휴우,,, 힘들다
 
 ### Prompts 예시
@@ -81,10 +87,6 @@ yaml file 수정하라길래 계속 config에서 뭐 바꿔야 하는 줄 알았
 | Alfreds Futterkiste          | Maria Anders     | Germany |
 | Island Trading               | Helen Bennett    |      UK |
 | Magazzini Alimentari Riuniti | Giovanni Rovelli |   Italy |
-
-### Links
-
-<http://127.0.0.1:4000>
 
 ### Footnote
 
@@ -120,7 +122,7 @@ When $ a\ne0 $ , there are two solutions to $ ax^2 + bx + c = 0 $ and they are
 $$ x = {-b \pm \sqrt{b^2-4ac} \over 2a} $$
 
 ### Mermaid SVG
-> GPT에 'diagram 이미지를 주고 mermaid diagram 으로 나올 수 있게 markdown language 로 코드 작성해줘! github jekyll blog에 post 할 거야' 라고 부탁해보자.
+> GPT에 'diagram 이미지를 주고 mermaid diagram 으로 나올 수 있게 markdown language 로 코드 작성해줘! github jekyll blog에 post 할 거야' 라고 부탁해보자.
 {: .prompt-tip }
 
 ```mermaid

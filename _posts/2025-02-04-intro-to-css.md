@@ -174,6 +174,9 @@ The lower the hierarchy, the more power to overwrite style rules.
 
 ## ❸ Font Properties
 ### Font Size
+> 폰트사이즈 기준 16px = 100% = 1 em
+{: .prompt-tip}
+
 - `1px` = 1/96th inch
 - `1pt` = 1/72nd inch
 - `1em` = 100% of parent (RELATIVE SIZE)
