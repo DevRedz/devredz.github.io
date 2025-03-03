@@ -1,7 +1,7 @@
 ---
 title: 스나이퍼팩토리 한컴AI - AI개발자 교육 1주차 회고
 description: intro to js.
-date: 2025-02-06 13:30:35 +09:00
+date: 2025-02-07 13:30:35 +09:00
 categories: [web dev, css]
 tags: [lecture,review]     # TAG names should always be lowercase
 ---
